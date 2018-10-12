@@ -1,0 +1,189 @@
+@font-face{
+	font-family: "ballpark";
+	src: url("../fuentes/ballpark.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "dayrom";
+	src: url("../fuentes/dayrom.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+/*definiendo elementos principales*/
+body{
+	background: url("../imagenes/yellow_background.png") ;
+	font-family: "trebuchet MS" , Arial, sans-serf;
+	color: #181818;
+}
+#contenido{
+	width: 900px;
+	margin: auto;		<
+}
+header{
+	background: url("../imagenes/line.png")	repeat-x bottom;
+}
+#logo{
+	display: inline-block;
+    }
+ header h1{
+    font-family: "ballpark";
+    font-size: 2.5em;
+    font-weight: normal;
+}
+#image, header h1{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+header h2{
+	font-family: "dayrom";
+	font size: 1.1em;
+	margin-top: 0px;
+	font-weight: normal;
+
+}
+nav{
+	display: inline-block;
+	width: 750px;
+	text-align: right;
+}
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 15px;
+}
+nav a{
+	font-size: 1.3em;
+	color: #181818;
+	padding-bottom: 1.3px;
+	text-decoration: none;
+
+}
+nav a:hover{
+	color: #760001;
+	border-bottom: 3px solid #780001;
+}
+#banner{
+	margin-top: 15px;
+	margin-bottom: 25px;
+	background: url(../imagenes/sanfrancisco.jpg);
+	height: 200px;
+	border-radius: 5px;
+	box-shadow:0px 4px 4px #1c1a19;
+	position: relative;
+}
+#texto_banner{
+	font-size: 0.8em;
+	color: white;
+	background-color: rgba(24,24,24,0.8);
+	padding-bottom: 15px;
+	padding-left: 4px;
+	width: 98.5%;
+	height:33px;
+	border-radius: 0px 0px 5px 5px;
+	bottom: 0px;
+	position: absolute;
+}
+.boton_rojo{
+	display: inline-block;
+	height: 25px;
+	border-radius: 5px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font-size: 1.2em;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding: 3px 8px 0px 8px;
+	border: 1px color #760001;
+	background-image: linear-gradient(red, blue);
+}
+article, aside{
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+
+}
+article{
+	width: 625px;
+	margin-right: 15px;
+
+}
+.art_img{
+	vertical-align: middle;
+	margin-right: 8px
+
+}
+article p{
+	font-size: 0.8em;
+}
+
+aside{
+	position: relative;
+	width: 235px;
+	background-color: #706b64;
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 0.9em;	
+}
+
+#imagen_autor{
+	position: absolute;
+	top: 100px;
+	left: -12px;
+
+}
+#foto{
+	text-align: center;
+}
+
+#foto img{
+	border: 1px solid #181818;
+}
+
+footer{
+	background: url("../imagenes/top.png") no-repeat top-center 
+	url("../imagenes/line.pnh") repeat-x top, url("../imagenes/shadow.png") repeat-x top;
+	padding-top: 25px;
+}
+footer p, footer ul{
+	font-size: 0.8em;
+
+}
+footer h1{
+	font-size: 1.3em
+
+}
+
+#posts, #fotos, #telefonos{
+	display: inline-block;
+	vertical-align: top;
+}
+#posts{
+	width: 25%
+}
+#fotos{
+	width: 35%
+}
+#telefonos{
+	width: 25%
+}
+#fotos img{
+	border:2px solid #183164;
+	margin-right: 2px;
+}
+#telefonos ul{
+	list-style-image: url("../imagenes/external_link.png");
+	padding: 2px;
+	width: 48%
+	margin-top: 0;
+	vertical-align: top;
+	margin-left: 10px;
+
+}
